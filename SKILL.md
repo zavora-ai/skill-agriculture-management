@@ -1,57 +1,9 @@
 ---
 name: agriculture-management
 description: Orchestrate farm operations — manage fields and crops, monitor weather, analyze satellite imagery (NDVI), track commodity markets, read IoT sensors, estimate yields, and detect pest/disease risks. Use when managing farm fields, planning planting, checking weather forecasts, monitoring crop health, tracking commodity prices, reading soil sensors, or estimating harvest yields.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-agriculture server connected (Open-Meteo, Sentinel-2, commodity APIs, IoT backends).
-allowed-tools:
-  - list_fields
-  - get_field
-  - create_field
-  - update_field
-  - list_crops
-  - get_crop
-  - plant_crop
-  - get_crop_calendar
-  - log_harvest
-  - log_activity
-  - list_activities
-  - get_activity_summary
-  - get_forecast
-  - get_historical_weather
-  - get_weather_alerts
-  - get_growing_degree_days
-  - get_field_ndvi
-  - get_crop_health
-  - detect_anomalies
-  - get_field_boundary
-  - get_commodity_price
-  - get_price_history
-  - get_market_trends
-  - list_commodities
-  - get_best_sell_time
-  - list_sensors
-  - get_sensor_reading
-  - get_soil_moisture
-  - get_rainfall
-  - estimate_yield
-  - get_harvest_history
-  - compare_seasons
-  - get_pest_alerts
-  - get_disease_risk
-tags:
-  - business
-  - agriculture
-  - farming
-  - weather
-  - satellite
-  - commodities
-  - iot
-  - yield
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [list_fields, get_field, create_field, update_field, list_crops, get_crop, plant_crop, get_crop_calendar, log_harvest, log_activity, list_activities, get_activity_summary, get_forecast, get_historical_weather, get_weather_alerts, get_growing_degree_days, get_field_ndvi, get_crop_health, detect_anomalies, get_field_boundary, get_commodity_price, get_price_history, get_market_trends, list_commodities, get_best_sell_time, list_sensors, get_sensor_reading, get_soil_moisture, get_rainfall, estimate_yield, get_harvest_history, compare_seasons, get_pest_alerts, get_disease_risk]
 metadata:
   author: Zavora AI
   mcp-server: mcp-agriculture
